@@ -1,0 +1,48 @@
+import cs1.SimpleURLReader;
+
+/**
+ * MySimpleURLReader class that extends the SimpleURLReader class
+ * @author Egemen Öztürk
+ * @version 22.10.2020
+ */
+public class MySimpleURLReader extends SimpleURLReader
+{
+   // properties
+   private String url;
+   
+   // constructors
+   public MySimpleURLReader( String url)
+   {
+      super( url);
+      this.url = url;
+   }
+   
+   // methods
+   /**
+    * This method returns  the url String used to create the SimpleURLReader object
+    * @return url
+    */
+   public String getURL()
+   {
+      return url;
+   }
+   
+   /**
+    * This method returns the filename part of the url, that is, the part of the url following the last '/' character
+    * @return filename part of the url
+    */
+   public String getName()
+   {
+      return url.substring( url.lastIndexOf('/') + 1, url.length());
+   }
+   
+   /**
+    * This method fixes the "null" bug of the SimpleURLReader's getPageContents()
+    * @return page content without "null"
+    */
+   @Override
+   public String getPageContents()
+   {
+     return super.getPageContents().substring(4); // subtracting the "null" part from the content
+   }
+}

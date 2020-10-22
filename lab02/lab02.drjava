@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20190813-220051">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="HTMLFilteredReader.java" package="" timestamp="03-Mar-2020 12:28:19">
+        <select from="126" to="126"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="JSoup.java" package="" timestamp="03-Mar-2020 12:27:54">
+        <select from="126" to="126"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Menu.java" package="" timestamp="03-Mar-2020 12:28:13">
+        <select from="126" to="126"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="MySimpleURLReader.java" package="" timestamp="03-Mar-2020 12:28:25">
+        <select from="126" to="126"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="URLTest.java" package="" timestamp="03-Mar-2020 12:28:34">
+        <select from="126" to="126"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="XHTMLFilteredReader.java" package="" timestamp="03-Mar-2020 12:28:40">
+        <select from="126" to="126"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="../cs1.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
